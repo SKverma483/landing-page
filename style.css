@@ -64,7 +64,7 @@ header {
   transform: scale(1.05);
 }
 .cards {
-  width: 100vw;
+  
   display: flex;
   margin: 48px 48px;
 
