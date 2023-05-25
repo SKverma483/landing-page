@@ -7,7 +7,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 header {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(developer.png);
   background-position: center;
   background-size: cover;
@@ -64,10 +64,9 @@ header {
   transform: scale(1.05);
 }
 .cards {
-  
+  /* width: 100vw; */
   display: flex;
   margin: 48px 48px;
-
   justify-content: space-evenly;
 }
 .imge {
