@@ -3,8 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
+html {
   font-family: "Lato", sans-serif;
+  width:100%
 }
 .main-container {
   width: 100%;
@@ -17,7 +18,7 @@ header {
   background-size: cover;
 }
 .container {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .page-head {
@@ -74,7 +75,7 @@ header {
   justify-content: space-evenly;
 }
 .imge {
-  width: 320px;
+  max-width: 320px;
   height: 200px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
