@@ -7,6 +7,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 header {
+  width:100%;
   min-height: 100vh;
   background-image: url(developer.png);
   background-position: center;
